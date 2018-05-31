@@ -7,27 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F609E4C20AC13E8007529DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F609E4B20AC13E8007529DA /* AppDelegate.swift */; };
-		2F609E4E20AC13E8007529DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F609E4D20AC13E8007529DA /* DetailViewController.swift */; };
 		2F609E5120AC13E8007529DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F609E4F20AC13E8007529DA /* Main.storyboard */; };
 		2F609E5420AC13E8007529DA /* CoreDataManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F609E5220AC13E8007529DA /* CoreDataManage.xcdatamodeld */; };
 		2F609E5620AC13E8007529DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F609E5520AC13E8007529DA /* Assets.xcassets */; };
 		2F609E5920AC13E8007529DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F609E5720AC13E8007529DA /* LaunchScreen.storyboard */; };
-		2F609E6120AC14C5007529DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F609E6020AC14C5007529DA /* DataService.swift */; };
-		2F609E6320AC183B007529DA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F609E6220AC183B007529DA /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F609E4820AC13E8007529DA /* CoreDataManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F609E4B20AC13E8007529DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F609E4D20AC13E8007529DA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2F609E5020AC13E8007529DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F609E5320AC13E8007529DA /* CoreDataManage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataManage.xcdatamodel; sourceTree = "<group>"; };
 		2F609E5520AC13E8007529DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F609E5820AC13E8007529DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F609E5A20AC13E8007529DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F609E6020AC14C5007529DA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		2F609E6220AC183B007529DA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +54,6 @@
 			children = (
 				2F609E6520AC1852007529DA /* DataService */,
 				2F609E6420AC1840007529DA /* ViewController */,
-				2F609E4B20AC13E8007529DA /* AppDelegate.swift */,
 				2F609E4F20AC13E8007529DA /* Main.storyboard */,
 				2F609E5520AC13E8007529DA /* Assets.xcassets */,
 				2F609E5720AC13E8007529DA /* LaunchScreen.storyboard */,
@@ -75,8 +66,6 @@
 		2F609E6420AC1840007529DA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2F609E4D20AC13E8007529DA /* DetailViewController.swift */,
-				2F609E6220AC183B007529DA /* MasterViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -84,7 +73,6 @@
 		2F609E6520AC1852007529DA /* DataService */ = {
 			isa = PBXGroup;
 			children = (
-				2F609E6020AC14C5007529DA /* DataService.swift */,
 			);
 			path = DataService;
 			sourceTree = "<group>";
@@ -161,11 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F609E6320AC183B007529DA /* MasterViewController.swift in Sources */,
 				2F609E5420AC13E8007529DA /* CoreDataManage.xcdatamodeld in Sources */,
-				2F609E4E20AC13E8007529DA /* DetailViewController.swift in Sources */,
-				2F609E4C20AC13E8007529DA /* AppDelegate.swift in Sources */,
-				2F609E6120AC14C5007529DA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
